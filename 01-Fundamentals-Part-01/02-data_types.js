@@ -24,9 +24,14 @@
  * -> Javascript has dynamic typing :: We do not have to manually define the data type of the value stored in a variable. 
  *    Instead data types are determined automatically.
  * 
+ * -> let                   - To declare variable that can be changed later. (Functional Scope) 
+ * -> const                 - To declare variable that can't be re-assign. Initial value is required. (Block Scope)
+ * -> var                   - Should be avoided. 
+ * 
  * --------------------------------------------------
  */
 
+////////////////////////////////////////////////////////////////
 // Boolean
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -47,3 +52,20 @@ year = 1991;
 console.log(typeof year);
 
 console.log(typeof null);
+
+////////////////////////////////////////////////////////////////
+
+// let, const and var
+
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
+// birthYear = 1990;
+// const job;
+
+var job = 'programmer';
+job = 'teacher'
+
+lastName = 'Schmedtmann';
+console.log(lastName);
