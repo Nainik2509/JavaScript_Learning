@@ -21,6 +21,9 @@
  * * * -> Symbol (ES2015)   - Value that is unique and cannot be changed [Not useful for now]
  * * * -> BigInt (ES2020)   - Larger integers than the Number type can hold
  * 
+ * -> Javascript has dynamic typing :: We do not have to manually define the data type of the value stored in a variable. 
+ *    Instead data types are determined automatically.
+ * 
  * --------------------------------------------------
  */
 
