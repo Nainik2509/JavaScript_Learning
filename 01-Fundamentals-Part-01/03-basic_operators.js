@@ -21,15 +21,15 @@
 // Basic Operators
 // Math operators
 const now = 2037;
-const ageJonas = now - 1991;
+const ageNainik = now - 1991;
 const ageSarah = now - 2018;
-console.log(ageJonas, ageSarah);
+console.log(ageNainik, ageSarah);
 
-console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+console.log(ageNainik * 2, ageNainik / 10, 2 ** 3);
 // 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
 
-const firstName = 'Jonas';
-const lastName = 'Schmedtmann';
+const firstName = 'Nainik';
+const lastName = 'Mehta';
 console.log(firstName + ' ' + lastName);
 
 // Assignment operators
@@ -42,7 +42,7 @@ x--;
 console.log(x);
 
 // Comparison operators
-console.log(ageJonas > ageSarah); // >, <, >=, <=
+console.log(ageNainik > ageSarah); // >, <, >=, <=
 console.log(ageSarah >= 18);
 
 const isFullAge = ageSarah >= 18;
@@ -52,7 +52,7 @@ console.log(now - 1991 > now - 2018);
 ////////////////////////////////////////////////////////////////
 // Operator Precedence
 const nowT = 2037;
-const ageJonasT = nowT - 1991;
+const ageNainikT = nowT - 1991;
 const ageSarahT = nowT - 2018;
 
 console.log(nowT - 1991 > nowT - 2018);
@@ -61,8 +61,8 @@ let a, b;
 a = b = 25 - 10 - 5; // a = b = 10, a = 10
 console.log(a, b);
 
-const averageAge = (ageJonasT + ageSarahT) / 2;
-console.log(ageJonasT, ageSarahT, averageAge);
+const averageAge = (ageNainikT + ageSarahT) / 2;
+console.log(ageNainikT, ageSarahT, averageAge);
 
 
 ////////////////////////////////////

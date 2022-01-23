@@ -28,20 +28,20 @@ let js = "amazing";
 console.log(40 + 8 + 23 - 10);
 
 // Values and Variables
-console.log("Jonas");
+console.log("Nainik");
 console.log(23);
 
-let firstName = "Matilda";
+let firstName = "Mehta";
 
 console.log(firstName);
 console.log(firstName);
 console.log(firstName);
 
 // Variable name conventions
-let jonas_matilda = "JM";
+let nainik_mehta = "NM";
 let $function = 27;
 
-let person = "jonas";
+let person = "nainik";
 // General global variables
 let PI = 3.1415;
 
