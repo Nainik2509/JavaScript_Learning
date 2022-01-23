@@ -32,6 +32,8 @@
  * -> Truthy & Falsy values
  * * * -> == do type coercion while === does not do type coercion.
  * 
+ * -> Logical Operators : AND, OR and NOT.
+ * 
  * --------------------------------------------------
  */
 
@@ -143,3 +145,27 @@ if (favourite === 23) { // 22 === 23 -> FALSE
 }
 
 if (favourite !== 23) console.log('Why not 23?');
+
+////////////////////////////////////////////////////////////////
+// Logical Operators
+const hasDriversLicense = true; // A
+const hasGoodVision = true; // B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+// if (hasDriversLicense && hasGoodVision) {
+//   console.log('Sarah is able to drive!');
+// } else {
+//   console.log('Someone else should drive...');
+// }
+
+const isTired = false; // C
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+    console.log('Sarah is able to drive!');
+} else {
+    console.log('Someone else should drive...');
+}
