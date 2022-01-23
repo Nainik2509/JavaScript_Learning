@@ -12,8 +12,8 @@
  * @version 1.0.0
  *
  * 
- * -> Operator : Allows us to tranform or combine balues
- * -> Operator : Allows us to tranform or combine balues
+ * -> Operator : Allows us to tranform or combine values
+ * -> Operator Precedence: <[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence]>
  * 
  * --------------------------------------------------
  */
@@ -48,3 +48,18 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 
 console.log(now - 1991 > now - 2018);
+
+////////////////////////////////////////////////////////////////
+// Operator Precedence
+const nowT = 2037;
+const ageJonasT = nowT - 1991;
+const ageSarahT = nowT - 2018;
+
+console.log(nowT - 1991 > nowT - 2018);
+
+let a, b;
+a = b = 25 - 10 - 5; // a = b = 10, a = 10
+console.log(a, b);
+
+const averageAge = (ageJonasT + ageSarahT) / 2;
+console.log(ageJonasT, ageSarahT, averageAge);
