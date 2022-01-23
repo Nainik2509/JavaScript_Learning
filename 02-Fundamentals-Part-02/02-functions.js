@@ -13,7 +13,9 @@
  *
  * 
  * -> Function Declarations vs. Expressions
- * -> Arrow functions -> Added in ES6. Shoter and faster to write
+ * * * -> Function declaration -> Functions that can be used before it's declared
+ * * * -> Function declaration -> Essentially a function value stored in a variable
+ * -> Arrow functions -> Added in ES6. Shoter and faster to write. Has no this keyword
  * -> Functions Calling Other Functions
  * -> Reviewing Functions
  * 
