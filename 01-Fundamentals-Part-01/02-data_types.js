@@ -33,6 +33,7 @@
  * * * -> == do type coercion while === does not do type coercion.
  * 
  * -> Logical Operators : AND, OR and NOT.
+ * -> Statements & Expressions
  * 
  * --------------------------------------------------
  */
@@ -215,3 +216,16 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 } else {
     console.log('No one wins the trophy 😭');
 }
+
+////////////////////////////////////////////////////////////////
+// Statements and Expressions
+3 + 4
+1991
+true && false && !false
+
+if (23 > 10) {
+    const str = '23 is bigger';
+}
+
+const me = 'Jonas';
+console.log(`I'm ${2037 - 1991} years old ${me}`);
