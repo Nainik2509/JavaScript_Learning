@@ -34,3 +34,41 @@ const jonas = {
     job: 'teacher',
     friends: ['Michael', 'Peter', 'Steven']
 };
+
+
+////////////////////////////////////////////////////////////////
+// Dot vs. Bracket Notation
+const nainik = {
+    firstName: 'Jonas',
+    lastName: 'Schmedtmann',
+    age: 2037 - 1991,
+    job: 'teacher',
+    friends: ['Michael', 'Peter', 'Steven']
+};
+console.log(nainik);
+
+console.log(nainik.lastName);
+console.log(nainik['lastName']);
+
+const nameKey = 'Name';
+console.log(nainik['first' + nameKey]);
+console.log(nainik['last' + nameKey]);
+
+// console.log(nainik.'last' + nameKey)
+
+const interestedIn = prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job, and friends');
+
+if (nainik[interestedIn]) {
+    console.log(nainik[interestedIn]);
+} else {
+    console.log('Wrong request! Choose between firstName, lastName, age, job, and friends');
+}
+
+nainik.location = 'Portugal';
+nainik['twitter'] = '@jonasschmedtman';
+console.log(nainik);
+
+// Challenge
+// "Jonas has 3 friends, and his best friend is called Michael"
+console.log(`${nainik.firstName} has ${nainik.friends.length} friends, and his best friend is called ${nainik.friends[0]}`);
+
