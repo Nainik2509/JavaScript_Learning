@@ -20,16 +20,16 @@
 ////////////////////////////////////////////////////////////////
 // Introduction to Objects
 const jonasArray = [
-    'Jonas',
-    'Schmedtmann',
+    'Nainik',
+    'Mehta',
     2037 - 1991,
     'teacher',
     ['Michael', 'Peter', 'Steven']
 ];
 
 const jonas = {
-    firstName: 'Jonas',
-    lastName: 'Schmedtmann',
+    firstName: 'Nainik',
+    lastName: 'Mehta',
     age: 2037 - 1991,
     job: 'teacher',
     friends: ['Michael', 'Peter', 'Steven']
